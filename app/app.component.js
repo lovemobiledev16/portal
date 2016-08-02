@@ -9,13 +9,15 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
+var loginDlg_1 = require('./Admin/login/loginDlg');
 var AppComponent = (function () {
     function AppComponent() {
     }
     AppComponent = __decorate([
         core_1.Component({
             selector: 'my-app',
-            template: '<h1>My First Angular 2 App</h1>'
+            template: '<login-dlg>My First Angular 2 App</login-dlg>',
+            directives: [loginDlg_1.Login]
         }), 
         __metadata('design:paramtypes', [])
     ], AppComponent);
