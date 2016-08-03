@@ -1,10 +1,11 @@
-@import '../../../assets/css/bootstrap.css';
-@import '../../../assets/css/icons/icomoon/styles.css';
-@import '../../../assets/css/bootstrap.css';
-@import	'../../../assets/css/core.css';
-@import '../../../assets/css/components.css';
-@import '../../../assets/css/colors.css';
-@import '../../../assets/css/custom.css';
-span {
-  color: #80D8FF;
+
+.navbar.navbar-inverse.navbar-transparent  {
+  background-color: #3F51B5;
+  border-color: #3F51B5;
+  color: #fff;
+}
+@media (max-width : 768) {
+  #navbar-second a {
+
+  }
 }

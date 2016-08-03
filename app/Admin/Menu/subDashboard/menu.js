@@ -9,8 +9,6 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
-var common_1 = require('@angular/common');
-var ng2_bootstrap_1 = require('ng2-bootstrap/ng2-bootstrap');
 var subDashboard = (function () {
     function subDashboard() {
     }
@@ -19,7 +17,6 @@ var subDashboard = (function () {
             selector: 'admin-subdashboard',
             templateUrl: './app/Admin/Menu/subDashboard/menu.html',
             styleUrls: ['./app/Admin/Menu/subDashboard/menu.css'],
-            directives: [ng2_bootstrap_1.DROPDOWN_DIRECTIVES, common_1.CORE_DIRECTIVES]
         }), 
         __metadata('design:paramtypes', [])
     ], subDashboard);

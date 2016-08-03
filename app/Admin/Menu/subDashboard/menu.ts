@@ -5,7 +5,6 @@ import { DROPDOWN_DIRECTIVES } from 'ng2-bootstrap/ng2-bootstrap';
   selector: 'admin-subdashboard',
   templateUrl: './app/Admin/Menu/subDashboard/menu.html',
   styleUrls: ['./app/Admin/Menu/subDashboard/menu.css'],
-  directives: [ DROPDOWN_DIRECTIVES , CORE_DIRECTIVES]
 })
 
 

@@ -1,3 +1,10 @@
+@import './assets/css/bootstrap.css';
+@import './assets/css/icons/icomoon/styles.css';
+@import './assets/css/bootstrap.css';
+@import	'./assets/css/core.css';
+@import './assets/css/components.css';
+@import './assets/css/colors.css';
+@import './assets/css/custom.css';
 h1 {
   color: #369;
   font-family: Arial, Helvetica, sans-serif;
