@@ -1,0 +1,8 @@
+.navbar-inverse .navbar-nav-material > .active > a, .navbar-inverse .navbar-nav-material > .active > a:hover, .navbar-inverse .navbar-nav-material > .active > a:focus {
+	color: #80D8FF;
+}
+
+.navbar-nav-material > li > a {
+    text-transform: none;
+    font-size: 13px;
+}

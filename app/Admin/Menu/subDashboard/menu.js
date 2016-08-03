@@ -9,20 +9,21 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
-var loginDlg_1 = require('./Admin/login/loginDlg');
-var menu_1 = require('./Admin/Menu/menu');
-var AppComponent = (function () {
-    function AppComponent() {
+var common_1 = require('@angular/common');
+var ng2_bootstrap_1 = require('ng2-bootstrap/ng2-bootstrap');
+var subDashboard = (function () {
+    function subDashboard() {
     }
-    AppComponent = __decorate([
+    subDashboard = __decorate([
         core_1.Component({
-            selector: 'my-app',
-            template: "\n            <admin-menu>Sample Menu</admin-menu>\n            <login-dlg>My First Angular 2 App</login-dlg>\n            ",
-            directives: [loginDlg_1.Login, menu_1.AdminMenu]
+            selector: 'admin-subdashboard',
+            templateUrl: './app/Admin/Menu/subDashboard/menu.html',
+            styleUrls: ['./app/Admin/Menu/subDashboard/menu.css'],
+            directives: [ng2_bootstrap_1.DROPDOWN_DIRECTIVES, common_1.CORE_DIRECTIVES]
         }), 
         __metadata('design:paramtypes', [])
-    ], AppComponent);
-    return AppComponent;
+    ], subDashboard);
+    return subDashboard;
 }());
-exports.AppComponent = AppComponent;
-//# sourceMappingURL=app.component.js.map
+exports.subDashboard = subDashboard;
+//# sourceMappingURL=menu.js.map
