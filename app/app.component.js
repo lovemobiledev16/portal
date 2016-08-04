@@ -11,14 +11,15 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var core_1 = require('@angular/core');
 var loginDlg_1 = require('./Admin/login/loginDlg');
 var menu_1 = require('./Admin/Menu/menu');
+var router_1 = require('@angular/router');
 var AppComponent = (function () {
     function AppComponent() {
     }
     AppComponent = __decorate([
         core_1.Component({
             selector: 'my-app',
-            template: "\n            <admin-menu>Sample Menu</admin-menu>\n            <login-dlg>My First Angular 2 App</login-dlg>\n            ",
-            directives: [loginDlg_1.Login, menu_1.AdminMenu]
+            template: "\n            <router-outlet></router-outlet>\n            ",
+            directives: [loginDlg_1.Login, menu_1.AdminMenu, router_1.ROUTER_DIRECTIVES]
         }), 
         __metadata('design:paramtypes', [])
     ], AppComponent);

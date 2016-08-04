@@ -9,16 +9,23 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
+var router_1 = require('@angular/router');
 var Login = (function () {
-    function Login() {
+    function Login(router) {
+        this.router = router;
     }
+    Login.prototype.login = function () {
+        console.log("Login");
+        this.router.navigate(['Dashboard']);
+        return false;
+    };
     Login = __decorate([
         core_1.Component({
             selector: 'login-dlg',
             templateUrl: './app/Admin/login/loginDlg.html',
             styleUrls: ['./app/Admin/login/loginDlg.css']
         }), 
-        __metadata('design:paramtypes', [])
+        __metadata('design:paramtypes', [router_1.Router])
     ], Login);
     return Login;
 }());
