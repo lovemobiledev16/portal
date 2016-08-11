@@ -4,7 +4,7 @@ import { DROPDOWN_DIRECTIVES } from 'ng2-bootstrap/ng2-bootstrap';
 @Component({
   selector: 'admin-communication',
   templateUrl: './app/Admin/Menu/AdminandCommunication/menu.html',
-  styleUrls: ['./app/Admin/Menu//AdminandCommunication/menu.css'],
+  styleUrls: ['./app/Admin/Menu/AdminandCommunication/menu.css'],
   directives: [ DROPDOWN_DIRECTIVES , CORE_DIRECTIVES]
 })
 

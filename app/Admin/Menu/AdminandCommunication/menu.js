@@ -30,7 +30,7 @@ var AdminCommunication = (function () {
         core_1.Component({
             selector: 'admin-communication',
             templateUrl: './app/Admin/Menu/AdminandCommunication/menu.html',
-            styleUrls: ['./app/Admin/Menu//AdminandCommunication/menu.css'],
+            styleUrls: ['./app/Admin/Menu/AdminandCommunication/menu.css'],
             directives: [ng2_bootstrap_1.DROPDOWN_DIRECTIVES, common_1.CORE_DIRECTIVES]
         }), 
         __metadata('design:paramtypes', [])

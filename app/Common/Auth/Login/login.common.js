@@ -10,18 +10,24 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 var core_1 = require('@angular/core');
 var router_1 = require('@angular/router');
-var AppComponent = (function () {
-    function AppComponent() {
+var LoginComponent = (function () {
+    function LoginComponent(router) {
+        this.router = router;
     }
-    AppComponent = __decorate([
+    LoginComponent.prototype.login = function () {
+        console.log("Login");
+        this.router.navigate(['admin/dashboard']);
+        return false;
+    };
+    LoginComponent = __decorate([
         core_1.Component({
-            selector: 'my-app',
-            template: "\n            <router-outlet></router-outlet>\n            ",
-            directives: [router_1.ROUTER_DIRECTIVES]
+            selector: 'login',
+            templateUrl: './app/Common/Auth/Login/login.common.html',
+            styleUrls: ['./app/Common/Auth/Login/login.common.css']
         }), 
-        __metadata('design:paramtypes', [])
-    ], AppComponent);
-    return AppComponent;
+        __metadata('design:paramtypes', [router_1.Router])
+    ], LoginComponent);
+    return LoginComponent;
 }());
-exports.AppComponent = AppComponent;
-//# sourceMappingURL=app.component.js.map
+exports.LoginComponent = LoginComponent;
+//# sourceMappingURL=login.common.js.map

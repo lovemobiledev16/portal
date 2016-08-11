@@ -10,18 +10,24 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 var core_1 = require('@angular/core');
 var router_1 = require('@angular/router');
-var AppComponent = (function () {
-    function AppComponent() {
+var AdminDashboard = (function () {
+    function AdminDashboard(router) {
+        this.router = router;
     }
-    AppComponent = __decorate([
+    AdminDashboard.prototype.login = function () {
+        console.log("Login");
+        this.router.navigate(['portal/:admin']);
+        return false;
+    };
+    AdminDashboard = __decorate([
         core_1.Component({
-            selector: 'my-app',
-            template: "\n            <router-outlet></router-outlet>\n            ",
-            directives: [router_1.ROUTER_DIRECTIVES]
+            selector: 'login',
+            templateUrl: './app/Templates/Admin/Dashboard/admin.dashboard.html',
+            styleUrls: ['./app/Templates/Admin/Dashboard/admin.dashboard.css']
         }), 
-        __metadata('design:paramtypes', [])
-    ], AppComponent);
-    return AppComponent;
+        __metadata('design:paramtypes', [router_1.Router])
+    ], AdminDashboard);
+    return AdminDashboard;
 }());
-exports.AppComponent = AppComponent;
-//# sourceMappingURL=app.component.js.map
+exports.AdminDashboard = AdminDashboard;
+//# sourceMappingURL=admin.dashboard.js.map

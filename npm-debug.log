@@ -1,33 +1,35 @@
 0 info it worked if it ends with ok
-1 verbose cli [ '/usr/bin/nodejs', '/usr/bin/npm', 'start' ]
-2 info using npm@3.10.3
-3 info using node@v6.3.0
+1 verbose cli [ '/home/venus/.nvm/versions/node/v6.2.0/bin/node',
+1 verbose cli   '/home/venus/.nvm/versions/node/v6.2.0/bin/npm',
+1 verbose cli   'start' ]
+2 info using npm@3.8.9
+3 info using node@v6.2.0
 4 verbose run-script [ 'prestart', 'start', 'poststart' ]
 5 info lifecycle angular2-quickstart@1.0.0~prestart: angular2-quickstart@1.0.0
 6 silly lifecycle angular2-quickstart@1.0.0~prestart: no script for prestart, continuing
 7 info lifecycle angular2-quickstart@1.0.0~start: angular2-quickstart@1.0.0
 8 verbose lifecycle angular2-quickstart@1.0.0~start: unsafe-perm in lifecycle true
-9 verbose lifecycle angular2-quickstart@1.0.0~start: PATH: /usr/lib/node_modules/npm/bin/node-gyp-bin:/media/dev/angular2/portal/node_modules/.bin:/usr/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
-10 verbose lifecycle angular2-quickstart@1.0.0~start: CWD: /media/dev/angular2/portal
+9 verbose lifecycle angular2-quickstart@1.0.0~start: PATH: /home/venus/.nvm/versions/node/v6.2.0/lib/node_modules/npm/bin/node-gyp-bin:/home/venus/work/Alice/Darren/gitwork/portal/node_modules/.bin:/home/venus/.nvm/versions/node/v6.2.0/bin:/home/venus/.nvm/versions/node/v6.2.0/bin:/home/venus/.rvm/gems/ruby-1.8.7-head/bin:/home/venus/.rvm/gems/ruby-1.8.7-head@global/bin:/home/venus/.rvm/rubies/ruby-1.8.7-head/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/venus/.rvm/bin:/home/venus/.rvm/bin:/home/venus/.rvm/bin
+10 verbose lifecycle angular2-quickstart@1.0.0~start: CWD: /home/venus/work/Alice/Darren/gitwork/portal
 11 silly lifecycle angular2-quickstart@1.0.0~start: Args: [ '-c', 'tsc && concurrently "npm run tsc:w" "npm run lite" ' ]
 12 silly lifecycle angular2-quickstart@1.0.0~start: Returned: code: 2  signal: null
 13 info lifecycle angular2-quickstart@1.0.0~start: Failed to exec start script
 14 verbose stack Error: angular2-quickstart@1.0.0 start: `tsc && concurrently "npm run tsc:w" "npm run lite" `
 14 verbose stack Exit status 2
-14 verbose stack     at EventEmitter.<anonymous> (/usr/lib/node_modules/npm/lib/utils/lifecycle.js:242:16)
+14 verbose stack     at EventEmitter.<anonymous> (/home/venus/.nvm/versions/node/v6.2.0/lib/node_modules/npm/lib/utils/lifecycle.js:245:16)
 14 verbose stack     at emitTwo (events.js:106:13)
 14 verbose stack     at EventEmitter.emit (events.js:191:7)
-14 verbose stack     at ChildProcess.<anonymous> (/usr/lib/node_modules/npm/lib/utils/spawn.js:40:14)
+14 verbose stack     at ChildProcess.<anonymous> (/home/venus/.nvm/versions/node/v6.2.0/lib/node_modules/npm/lib/utils/spawn.js:24:14)
 14 verbose stack     at emitTwo (events.js:106:13)
 14 verbose stack     at ChildProcess.emit (events.js:191:7)
-14 verbose stack     at maybeClose (internal/child_process.js:852:16)
+14 verbose stack     at maybeClose (internal/child_process.js:850:16)
 14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:215:5)
 15 verbose pkgid angular2-quickstart@1.0.0
-16 verbose cwd /media/dev/angular2/portal
+16 verbose cwd /home/venus/work/Alice/Darren/gitwork/portal
 17 error Linux 3.19.0-25-generic
-18 error argv "/usr/bin/nodejs" "/usr/bin/npm" "start"
-19 error node v6.3.0
-20 error npm  v3.10.3
+18 error argv "/home/venus/.nvm/versions/node/v6.2.0/bin/node" "/home/venus/.nvm/versions/node/v6.2.0/bin/npm" "start"
+19 error node v6.2.0
+20 error npm  v3.8.9
 21 error code ELIFECYCLE
 22 error angular2-quickstart@1.0.0 start: `tsc && concurrently "npm run tsc:w" "npm run lite" `
 22 error Exit status 2

@@ -37,7 +37,8 @@ var AdminMenu = (function () {
             selector: 'admin-menu',
             templateUrl: './app/Admin/Menu/menu.html',
             styleUrls: ['./app/Admin/Menu/menu.css'],
-            directives: [menu_1.subDashboard, menu_2.AdminCommunication, menu_3.HumanResources, menu_4.Financial, menu_5.Students, menu_6.Facility, menu_7.Portals, ng2_bootstrap_1.DROPDOWN_DIRECTIVES, common_1.CORE_DIRECTIVES]
+            directives: [menu_1.subDashboard, menu_2.AdminCommunication, menu_3.HumanResources, menu_4.Financial, menu_5.Students, menu_6.Facility, menu_7.Portals, ng2_bootstrap_1.DROPDOWN_DIRECTIVES,
+                common_1.CORE_DIRECTIVES]
         }), 
         __metadata('design:paramtypes', [])
     ], AdminMenu);

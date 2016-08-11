@@ -1,0 +1,69 @@
+[
+	{"title" : "Dashboard", "url" : "/dashboard"},
+	{"title" : "Admin and Commmunication",
+		"data" : [
+			{"title" : "Enquiry", "url" : "/enquiry", "icon" : "icon-bubbles6"},
+			{"title" : "Admissions", "url" : "/admissions", "icon" : "icon-folder-open3"},
+			{"title" : "Student Records", "url" : "/student-records", "icon" : "icon-users4"},
+			{"title" : "Sponsor Records", "url" : "/sponsor-records", "icon" : "icon-people"},
+			{"title" : "Business Intelligence", "url" : "/business-intelligence", "icon" : "icon-grid"},
+			{"title" : "Commmunications", "url" : "/commmunications", "icon" : "icon-mail5"},
+			{"title" : "Alumni and Donor Management", "url" : "/alumni-and-donor-information", "icon" : "icon-graduation2"},
+			{"title" : "Calendar and Events", "url" : "/calendar-and-events", "icon" : "icon-calendar52"}
+		]
+	},
+	{"title" : "Human Resources",
+		"data" : [
+			{"title" : "Human Resources Management", "url" : "/human-resources-management", "icon" : "icon-database-arrow"},
+			{"title" : "Staff Attendance", "url" : "/staff-attendance", "icon" : "icon-alarm-check"},
+			{"title" : "Staff Leave Management", "url" : "/staff-leave-management", "icon" : "icon-stack-cancel"}
+		]
+	},
+	{"title" : "Financial",
+		"data" : [
+			{"title" : "Contacts Premium", "url" : "/contact-premium", "icon" : "icon-address-book2"},
+			{"title" : "Fee Administration", "url" : "/fee-administration", "icon" : "icon-grid"},
+			{"title" : "General Ledger and Banking", "url" : "/general-ledger-and-banking", "icon" : "icon-grid"},
+			{"title" : "Budgeting", "url" : "budgeting", "icon" : "icon-grid"},
+			{"title" : "Inventory", "url" : "inventory", "icon" : "icon-grid"},
+			{"title" : "Bills Payable", "url" : "bills-payable", "icon" : "icon-grid"},
+			{"title" : "Requisitions and Purchasing", "url" : "requisitions-and-purchasing", "icon" : "icon-grid"},
+			{"title" : "Supplier Payments", "url" : "/supplier-payments", "icon" : "icon-grid"},
+			{"title" : "Customer Transactions", "url" : "/customer-transactions", "icon" : "icon-grid"},
+			{"title" : "Customer Payments", "url" : "/customer-payments", "icon" : "icon-grid"}
+		]
+	},
+	{"title" : "Student Learning and Activities",
+		"data" : [
+			{"title" : "Academic Management", "url" : "/academic-management", "icon" : "icon-grid"},
+			{"title" : "Timetable", "url" : "/timetable", "icon" : "icon-calendar2"},
+			{"title" : "Assessment Premium", "url" : "/assessment-premium", "icon" : "icon-grid"},
+			{"title" : "Attendance", "url" : "/attendance", "icon" : "icon-checkbox-checked"},
+			{"title" : "Attendance by House", "url" : "/attendance-by-house", "icon" : "icon-office"},
+			{"title" : "Houses and Teams", "url" : "/houses-and-teams", "icon" : "icon-grid"},
+			{"title" : "Activity Management", "url" : "/activity-management", "icon" : "icon-grid"},
+			{"title" : "SPE Programme", "url" : "/spe-programme", "icon" : "icon-grid"},
+			{"title" : "Learning and Behavior Management", "url" : "/learning-and-behavior-management", "icon" : "icon-grid"},
+			{"title" : "Curriculum Library", "url" : "curriculum-library", "icon" : "icon-grid"},
+			{"title" : "CAS", "url" : "/cas", "icon" : "icon-grid"},
+			{"title" : "Learning Support", "url" : "learning-support", "icon" : "icon-grid"}
+		]
+	},
+	{"title" : "Facilities and Infrastructure",
+		"data" : [
+			{"title" : "Boarding", "url" : "/boarding", "icon" : "icon-grid"},
+			{"title" : "Helpdesk and Asset Register", "url" : "/helpdesk-and-asset-register", "icon" : "icon-add-to-list"},
+			{"title" : "Transport", "url" : "/transport", "icon" : "icon-bus"},
+			{"title" : "Library Management", "url" : "/library-management", "icon" : "icon-library2"},
+			{"title" : "Library Search", "url" : "/library-search", "icon" : "icon-folder-search"}
+		]
+	},
+	{"title" : "Portals",
+		"data" : [
+			{"title" : "Sponsor Portal", "url" : "/sponsor-portal", "icon" : "icon-grid"},
+			{"title" : "Student Portal", "url" : "/student-portal", "icon" : "icon-grid"},
+			{"title" : "Alumni Portal", "url" : "/alumni-portal", "icon" : "icon-grid"},
+			{"title" : "Online Application", "url" : "/online-application", "icon" : "icon-grid"}
+		]
+	}
+]

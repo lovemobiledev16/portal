@@ -1,0 +1,9 @@
+[
+	{"title" : "Dashboard", "url" : "/dashboard"},
+	{"title" : "Accounts", "url" : "/accounts"},
+	{"title" : "Communicate", "url" : "/communicate"},
+	{"title" : "Library", "url" : "/library"},
+	{"title" : "Newsletter", "url" : "/newsletter"},
+	{"title" : "Sponsors", "url" : "/sponsors"},
+	{"title" : "Students", "url" : "/students"}
+]

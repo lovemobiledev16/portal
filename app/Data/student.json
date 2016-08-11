@@ -1,0 +1,12 @@
+[
+	{"title" : "Dashboard", "url" : "/dashboard"},
+	{"title" : "Calendar", "url" : "/calendar"},
+	{"title" : "Library", "url" : "/library"},
+	{"title" : "LMS", "url" : "/lms"},
+	{"title" : "Timetable", "url" : "/timetable"},
+	{"title" : "LBM", "url" : "/lbm"},
+	{"title" : "Progress Report", "url" : "/progress-report"},
+	{"title" : "Report Cards", "url" : "report-cards"},
+	{"title" : "Attendance", "url" : "attendance"},
+	{"title" : "Activities", "url" : "activities"}
+]

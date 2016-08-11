@@ -8,11 +8,13 @@ import { Financial } from './Financial/menu';
 import { Students } from './Students/menu';
 import { Facility } from './Facility/menu';
 import { Portals } from './Portals/menu';
+import { Headers, Http, Response} from '@angular/http';
 @Component({
   selector: 'admin-menu',
   templateUrl: './app/Admin/Menu/menu.html',
   styleUrls: ['./app/Admin/Menu/menu.css'],
-  directives: [ subDashboard , AdminCommunication, HumanResources, Financial, Students, Facility, Portals, DROPDOWN_DIRECTIVES , CORE_DIRECTIVES]
+  directives: [ subDashboard , AdminCommunication, HumanResources, Financial, Students, Facility, Portals, DROPDOWN_DIRECTIVES , 
+                CORE_DIRECTIVES]
 })
 
 
