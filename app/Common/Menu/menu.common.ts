@@ -5,13 +5,12 @@ import 'rxjs/add/operator/switchMap';
 import 'rxjs/add/operator/toPromise';
 import 'rxjs/add/operator/catch';
 
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { CORE_DIRECTIVES } from '@angular/common';
 import { DROPDOWN_DIRECTIVES } from 'ng2-bootstrap/ng2-bootstrap';
 import { MenuService } from '../../Services/Menu/menu.service';
 import { MenuItem, SubMenu } from '../../Objects/Menu/menu.object';
 import { ActivatedRoute } from '@angular/router';
-
 @Component ({
     selector: 'nav-menu',
     templateUrl: './app/Common/Menu/menu.common.html',
@@ -27,6 +26,7 @@ export class CommonMenu implements OnInit {
     public subMenus:SubMenu[];
     sub: any;
     bShowMenu: any;
+    @Input() path : string;
     public toggled(open:boolean):void {
         console.log('Dropdown is now: ', open);
     }
@@ -34,7 +34,8 @@ export class CommonMenu implements OnInit {
         this.sub = this.route.params.subscribe(params => {
             console.log(params);
             let id = params['part'];
-            this.menuService.getMenu(id).then(
+            id = 'admin';
+            this.menuService.getMenu(this.path).then(
                 (res) => {
                     //console.log(JSON.stringify(res));
                     this.subMenus = res as SubMenu[];
@@ -44,7 +45,7 @@ export class CommonMenu implements OnInit {
                     console.log(JSON.stringify(err));
                 }
             )
-        });      
+        });
     }
     public toggleDropdown($event:MouseEvent):void {
         //$event.preventDefault();
@@ -53,7 +54,7 @@ export class CommonMenu implements OnInit {
         //console.log(this.menuService.get())
     }
     onShowMenu() {
-        this.bShowMenu = !this.bShowMenu;   
+        this.bShowMenu = !this.bShowMenu;
     }
     constructor(private menuService:MenuService,private route: ActivatedRoute){
         this.bShowMenu = true;

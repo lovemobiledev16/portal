@@ -1,0 +1,201 @@
+<div class="page-header page-header-inverse bg-indigo">
+   <!-- Main navbar -->
+   <div class="navbar navbar-inverse navbar-transparent">
+      <div class="navbar-header">
+         <a class="navbar-brand" href="index.html"><img src="../../assets/images/logo_light.png" alt="">
+         </a>
+      </div>
+      <div class="navbar-collapse">
+         <div class="navbar-right hidden-xs">
+            <ul class="nav navbar-nav">
+               <li class="dropdown">
+                  <a data-toggle="dropdown" class="dropdown-toggle legitRipple" (click)="onShowRightActivity()">
+                  <i class="icon-bell2"></i>
+                  </a>
+                  <div class="dropdown-menu dropdown-content" *ngIf="!bShowRightActivity" style="display: block;">
+                     <div class="dropdown-content-heading">
+                        Activity
+                        <ul class="icons-list">
+                           <li><a href="#"><i class="icon-menu7"></i></a>
+                           </li>
+                        </ul>
+                     </div>
+                     <ul class="media-list dropdown-content-body width-350">
+                        <li class="media">
+                           <div class="media-left">
+                              <a class="btn bg-success-400 btn-rounded btn-icon btn-xs legitRipple" href="#"><i class="icon-mention"></i></a>
+                           </div>
+                           <div class="media-body">
+                              <a href="#">Taylor Swift</a> mentioned you in a post "Angular JS. Tips and tricks"
+                              <div class="media-annotation">4 minutes ago</div>
+                           </div>
+                        </li>
+                        <li class="media">
+                           <div class="media-left">
+                              <a class="btn bg-pink-400 btn-rounded btn-icon btn-xs legitRipple" href="#"><i class="icon-paperplane"></i></a>
+                           </div>
+                           <div class="media-body">
+                              Special offers have been sent to subscribed users by <a href="#">Donna Gordon</a>
+                              <div class="media-annotation">36 minutes ago</div>
+                           </div>
+                        </li>
+                     </ul>
+                  </div>
+               </li>
+               <li class="dropdown">
+                  <a data-toggle="dropdown" class="dropdown-toggle legitRipple" (click)="onShowRightMessage()"><i class="icon-bubble8"></i></a>
+                  <div class="dropdown-menu dropdown-content width-350" *ngIf="!bShowRightMessage" style="display: block;">
+                     <div class="dropdown-content-heading">
+                        Messages
+                        <ul class="icons-list">
+                           <li><a href="#"><i class="icon-menu7"></i></a>
+                           </li>
+                        </ul>
+                     </div>
+                     <ul class="media-list dropdown-content-body">
+                        <li class="media">
+                           <div class="media-left">
+                              <img alt="" class="img-circle img-sm" src="../../assets/images/sponsor2.jpg">
+                              <span class="badge bg-danger-400 media-badge">5</span>
+                           </div>
+                           <div class="media-body">
+                              <a class="media-heading" href="#">
+                              <span class="text-semibold">Dwain Smith</span>
+                              <span class="media-annotation pull-right">04:58</span>
+                              </a>
+                              <span class="text-muted">who knows, maybe that would be the best thing for me...</span>
+                           </div>
+                        </li>
+                        <li class="media">
+                           <div class="media-left">
+                              <img alt="" class="img-circle img-sm" src="../../assets/images/sponsor1.jpg">
+                              <span class="badge bg-danger-400 media-badge">4</span>
+                           </div>
+                           <div class="media-body">
+                              <a class="media-heading" href="#">
+                              <span class="text-semibold">Claudette Smith</span>
+                              <span class="media-annotation pull-right">12:16</span>
+                              </a>
+                              <span class="text-muted">That was something he was unable to do because...</span>
+                           </div>
+                        </li>
+                     </ul>
+                  </div>
+               </li>
+               <li class="dropdown dropdown-user">
+                  <a data-toggle="dropdown" class="dropdown-toggle legitRipple" aria-expanded="false" (click)="onShowRightMenu()">
+                  <img alt="" src="../../assets/images/staff2.jpg">
+                  <span class="hidden-xs">Richard</span>
+                  <i class="hidden-xs caret"></i>
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-right" *ngIf="!bShowRightMenu" style="display: block;">
+                     <li><a href="#">My Profile</a>
+                     </li>
+                     <li><a href="#">Account Settings</a>
+                     </li>
+                     <li><a href="#">Logout</a>
+                     </li>
+                  </ul>
+               </li>
+            </ul>
+         </div>
+         <div class="navbar-right" id="navbar-mobile">
+            <div class="navbar navbar-inverse navbar-transparent hidden-lg hidden-md hidden-sm" id="navbar-second-mobile">
+               <ul class="nav navbar-nav no-border visible-xs-block">
+                  <li>
+                     <a class="text-center collapsed" data-toggle="collapse" data-target="#navbar-user-toggle" [ngClass]="{collapsed: bShowRightMenu}" (click)="onShowRightMenu()"><img class="user-image" alt="" src="../../assets/images/staff2.jpg" />
+                     </a>
+                  </li>
+                  <li class="iconic"><a class="text-center collapsed" data-toggle="collapse" data-target="#navbar-messages-toggle" [ngClass]="{collapsed: bShowRightMessage}" (click)="onShowRightMessage()"><i class="icon-bubble8"></i></a>
+                  </li>
+                  <li class="iconic"><a class="text-center collapsed" data-toggle="collapse" data-target="#navbar-activities-toggle" [ngClass]="{collapsed: bShowRightActivity}" (click)="onShowRightActivity()"><i class="icon-bell2"></i></a>
+                  </li>
+               </ul>
+               <div class="navbar-collapse collapse" id="navbar-activities-toggle" [ngClass]="{collapse: bShowRightActivity}">
+                  <div class="dropdown-content-heading">
+                     Activity
+                     <ul class="icons-list">
+                        <li><a href="#"><i class="icon-menu7"></i></a>
+                        </li>
+                     </ul>
+                  </div>
+                  <ul class="media-list dropdown-content-body width-350">
+                     <li class="media">
+                        <style>
+                          li .media-left a {width: 34px; height: 34px;}
+                          li .media-body a {width: 34px; height: 34px;}
+                        </style>
+                        <div class="media-left">
+                           <a class="btn bg-success-400 btn-rounded btn-icon btn-xs legitRipple" href="#"><i class="icon-mention"></i></a>
+                        </div>
+                        <div class="media-body">
+                           <a href="#">Taylor Swift</a> mentioned you in a post "Angular JS. Tips and tricks"
+                           <div class="media-annotation">4 minutes ago</div>
+                        </div>
+                     </li>
+                     <li class="media">
+                        <div class="media-left">
+                           <a class="btn bg-pink-400 btn-rounded btn-icon btn-xs legitRipple" href="#"><i class="icon-paperplane"></i></a>
+                        </div>
+                        <div class="media-body">
+                           Special offers have been sent to subscribed users by <a href="#">Donna Gordon</a>
+                           <div class="media-annotation">36 minutes ago</div>
+                        </div>
+                     </li>
+                  </ul>
+               </div>
+               <div class="navbar-collapse collapse" id="navbar-messages-toggle" [ngClass]="{collapse: bShowRightMessage}">
+                  <div class="dropdown-content-heading">
+                     Messages
+                     <ul class="icons-list">
+                        <li><a href="#"><i class="icon-menu7"></i></a>
+                        </li>
+                     </ul>
+                  </div>
+                  <ul class="media-list dropdown-content-body">
+                     <li class="media">
+                        <div class="media-left">
+                           <img alt="" class="img-circle img-sm" src="../../assets/images/sponsor2.jpg">
+                           <span class="badge bg-danger-400 media-badge">5</span>
+                        </div>
+                        <div class="media-body">
+                           <a class="media-heading" href="#">
+                           <span class="text-semibold">Dwain Smith</span>
+                           <span class="media-annotation pull-right">04:58</span>
+                           </a>
+                           <span class="text-muted">who knows, maybe that would be the best thing for me...</span>
+                        </div>
+                     </li>
+                     <li class="media">
+                        <div class="media-left">
+                           <img alt="" class="img-circle img-sm" src="../../assets/images/sponsor1.jpg">
+                           <span class="badge bg-danger-400 media-badge">4</span>
+                        </div>
+                        <div class="media-body">
+                           <a class="media-heading" href="#">
+                           <span class="text-semibold">Claudette Smith</span>
+                           <span class="media-annotation pull-right">12:16</span>
+                           </a>
+                           <span class="text-muted">That was something he was unable to do because...</span>
+                        </div>
+                     </li>
+                  </ul>
+               </div>
+               <div class="navbar-collapse collapse" id="navbar-user-toggle" [ngClass]="{collapse: bShowRightMenu}">
+                  <ul class="media-list dropdown-content-body">
+                     <li class="media"><a href="#">My Profile</a>
+                     </li>
+                     <li><a href="#">Account Settings</a>
+                     </li>
+                     <li><a href="#">Logout</a>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <!-- /main navbar -->
+   <nav-menu [path]="menuPath"></nav-menu>
+
+</div>

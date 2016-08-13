@@ -1,1 +1,1 @@
-{"version":3,"file":"footer.common.js","sourceRoot":"","sources":["footer.common.ts"],"names":[],"mappings":""}
+{"version":3,"file":"footer.common.js","sourceRoot":"","sources":["footer.common.ts"],"names":[],"mappings":";;;;;;;;;;AAAA,qBAA0B,eAAe,CAAC,CAAA;AAC1C,uBAAuB,iBAAiB,CAAC,CAAA;AAMzC;IACE,sBAAoB,MAAa;QAAb,WAAM,GAAN,MAAM,CAAO;IAAG,CAAC;IANvC;QAAC,gBAAS,CAAC;YACT,QAAQ,EAAE,QAAQ;YAClB,WAAW,EAAE,wCAAwC;YACrD,SAAS,EAAE,CAAC,EAAE,CAAC;SAChB,CAAC;;oBAAA;IAGF,mBAAC;AAAD,CAAC,AAFD,IAEC;AAFY,oBAAY,eAExB,CAAA"}

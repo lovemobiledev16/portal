@@ -1,69 +1,69 @@
 [
-	{"title" : "Dashboard", "url" : "/dashboard"},
+	{"title" : "Dashboard", "url" : "admin/dashboard"},
 	{"title" : "Admin and Commmunication",
 		"data" : [
-			{"title" : "Enquiry", "url" : "/enquiry", "icon" : "icon-bubbles6"},
-			{"title" : "Admissions", "url" : "/admissions", "icon" : "icon-folder-open3"},
-			{"title" : "Student Records", "url" : "/student-records", "icon" : "icon-users4"},
-			{"title" : "Sponsor Records", "url" : "/sponsor-records", "icon" : "icon-people"},
-			{"title" : "Business Intelligence", "url" : "/business-intelligence", "icon" : "icon-grid"},
-			{"title" : "Commmunications", "url" : "/commmunications", "icon" : "icon-mail5"},
-			{"title" : "Alumni and Donor Management", "url" : "/alumni-and-donor-information", "icon" : "icon-graduation2"},
-			{"title" : "Calendar and Events", "url" : "/calendar-and-events", "icon" : "icon-calendar52"}
+			{"title" : "Enquiry", "url" : "admin/enquiry", "icon" : "icon-bubbles6"},
+			{"title" : "Admissions", "url" : "admin/admissions", "icon" : "icon-folder-open3"},
+			{"title" : "Student Records", "url" : "admin/student-records", "icon" : "icon-users4"},
+			{"title" : "Sponsor Records", "url" : "admin/sponsor-records", "icon" : "icon-people"},
+			{"title" : "Business Intelligence", "url" : "admin/business-intelligence", "icon" : "icon-grid"},
+			{"title" : "Commmunications", "url" : "admin/commmunications", "icon" : "icon-mail5"},
+			{"title" : "Alumni and Donor Management", "url" : "admin/alumni-and-donor-information", "icon" : "icon-graduation2"},
+			{"title" : "Calendar and Events", "url" : "admin/calendar-and-events", "icon" : "icon-calendar52"}
 		]
 	},
 	{"title" : "Human Resources",
 		"data" : [
-			{"title" : "Human Resources Management", "url" : "/human-resources-management", "icon" : "icon-database-arrow"},
-			{"title" : "Staff Attendance", "url" : "/staff-attendance", "icon" : "icon-alarm-check"},
-			{"title" : "Staff Leave Management", "url" : "/staff-leave-management", "icon" : "icon-stack-cancel"}
+			{"title" : "Human Resources Management", "url" : "admin/human-resources-management", "icon" : "icon-database-arrow"},
+			{"title" : "Staff Attendance", "url" : "admin/staff-attendance", "icon" : "icon-alarm-check"},
+			{"title" : "Staff Leave Management", "url" : "admin/staff-leave-management", "icon" : "icon-stack-cancel"}
 		]
 	},
 	{"title" : "Financial",
 		"data" : [
-			{"title" : "Contacts Premium", "url" : "/contact-premium", "icon" : "icon-address-book2"},
-			{"title" : "Fee Administration", "url" : "/fee-administration", "icon" : "icon-grid"},
-			{"title" : "General Ledger and Banking", "url" : "/general-ledger-and-banking", "icon" : "icon-grid"},
+			{"title" : "Contacts Premium", "url" : "admin/contact-premium", "icon" : "icon-address-book2"},
+			{"title" : "Fee Administration", "url" : "admin/fee-administration", "icon" : "icon-grid"},
+			{"title" : "General Ledger and Banking", "url" : "admin/general-ledger-and-banking", "icon" : "icon-grid"},
 			{"title" : "Budgeting", "url" : "budgeting", "icon" : "icon-grid"},
 			{"title" : "Inventory", "url" : "inventory", "icon" : "icon-grid"},
 			{"title" : "Bills Payable", "url" : "bills-payable", "icon" : "icon-grid"},
 			{"title" : "Requisitions and Purchasing", "url" : "requisitions-and-purchasing", "icon" : "icon-grid"},
-			{"title" : "Supplier Payments", "url" : "/supplier-payments", "icon" : "icon-grid"},
-			{"title" : "Customer Transactions", "url" : "/customer-transactions", "icon" : "icon-grid"},
-			{"title" : "Customer Payments", "url" : "/customer-payments", "icon" : "icon-grid"}
+			{"title" : "Supplier Payments", "url" : "admin/supplier-payments", "icon" : "icon-grid"},
+			{"title" : "Customer Transactions", "url" : "admin/customer-transactions", "icon" : "icon-grid"},
+			{"title" : "Customer Payments", "url" : "admin/customer-payments", "icon" : "icon-grid"}
 		]
 	},
 	{"title" : "Student Learning and Activities",
 		"data" : [
-			{"title" : "Academic Management", "url" : "/academic-management", "icon" : "icon-grid"},
-			{"title" : "Timetable", "url" : "/timetable", "icon" : "icon-calendar2"},
-			{"title" : "Assessment Premium", "url" : "/assessment-premium", "icon" : "icon-grid"},
-			{"title" : "Attendance", "url" : "/attendance", "icon" : "icon-checkbox-checked"},
-			{"title" : "Attendance by House", "url" : "/attendance-by-house", "icon" : "icon-office"},
-			{"title" : "Houses and Teams", "url" : "/houses-and-teams", "icon" : "icon-grid"},
-			{"title" : "Activity Management", "url" : "/activity-management", "icon" : "icon-grid"},
-			{"title" : "SPE Programme", "url" : "/spe-programme", "icon" : "icon-grid"},
-			{"title" : "Learning and Behavior Management", "url" : "/learning-and-behavior-management", "icon" : "icon-grid"},
+			{"title" : "Academic Management", "url" : "admin/academic-management", "icon" : "icon-grid"},
+			{"title" : "Timetable", "url" : "admin/timetable", "icon" : "icon-calendar2"},
+			{"title" : "Assessment Premium", "url" : "admin/assessment-premium", "icon" : "icon-grid"},
+			{"title" : "Attendance", "url" : "admin/attendance", "icon" : "icon-checkbox-checked"},
+			{"title" : "Attendance by House", "url" : "admin/attendance-by-house", "icon" : "icon-office"},
+			{"title" : "Houses and Teams", "url" : "admin/houses-and-teams", "icon" : "icon-grid"},
+			{"title" : "Activity Management", "url" : "admin/activity-management", "icon" : "icon-grid"},
+			{"title" : "SPE Programme", "url" : "admin/spe-programme", "icon" : "icon-grid"},
+			{"title" : "Learning and Behavior Management", "url" : "admin/learning-and-behavior-management", "icon" : "icon-grid"},
 			{"title" : "Curriculum Library", "url" : "curriculum-library", "icon" : "icon-grid"},
-			{"title" : "CAS", "url" : "/cas", "icon" : "icon-grid"},
+			{"title" : "CAS", "url" : "admin/cas", "icon" : "icon-grid"},
 			{"title" : "Learning Support", "url" : "learning-support", "icon" : "icon-grid"}
 		]
 	},
 	{"title" : "Facilities and Infrastructure",
 		"data" : [
-			{"title" : "Boarding", "url" : "/boarding", "icon" : "icon-grid"},
-			{"title" : "Helpdesk and Asset Register", "url" : "/helpdesk-and-asset-register", "icon" : "icon-add-to-list"},
-			{"title" : "Transport", "url" : "/transport", "icon" : "icon-bus"},
-			{"title" : "Library Management", "url" : "/library-management", "icon" : "icon-library2"},
-			{"title" : "Library Search", "url" : "/library-search", "icon" : "icon-folder-search"}
+			{"title" : "Boarding", "url" : "admin/boarding", "icon" : "icon-grid"},
+			{"title" : "Helpdesk and Asset Register", "url" : "admin/helpdesk-and-asset-register", "icon" : "icon-add-to-list"},
+			{"title" : "Transport", "url" : "admin/transport", "icon" : "icon-bus"},
+			{"title" : "Library Management", "url" : "admin/library-management", "icon" : "icon-library2"},
+			{"title" : "Library Search", "url" : "admin/library-search", "icon" : "icon-folder-search"}
 		]
 	},
 	{"title" : "Portals",
 		"data" : [
-			{"title" : "Sponsor Portal", "url" : "/sponsor-portal", "icon" : "icon-grid"},
-			{"title" : "Student Portal", "url" : "/student-portal", "icon" : "icon-grid"},
-			{"title" : "Alumni Portal", "url" : "/alumni-portal", "icon" : "icon-grid"},
-			{"title" : "Online Application", "url" : "/online-application", "icon" : "icon-grid"}
+			{"title" : "Sponsor Portal", "url" : "admin/sponsor-portal", "icon" : "icon-grid"},
+			{"title" : "Student Portal", "url" : "admin/student-portal", "icon" : "icon-grid"},
+			{"title" : "Alumni Portal", "url" : "admin/alumni-portal", "icon" : "icon-grid"},
+			{"title" : "Online Application", "url" : "admin/online-application", "icon" : "icon-grid"}
 		]
 	}
 ]

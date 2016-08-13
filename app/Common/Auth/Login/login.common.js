@@ -16,7 +16,7 @@ var LoginComponent = (function () {
     }
     LoginComponent.prototype.login = function () {
         console.log("Login");
-        this.router.navigate(['admin/dashboard']);
+        this.router.navigate(['admin']);
         return false;
     };
     LoginComponent = __decorate([

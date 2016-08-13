@@ -1,12 +1,12 @@
 [
-	{"title" : "Dashboard", "url" : "/dashboard"},
-	{"title" : "Calendar", "url" : "/calendar"},
-	{"title" : "Library", "url" : "/library"},
-	{"title" : "LMS", "url" : "/lms"},
-	{"title" : "Timetable", "url" : "/timetable"},
-	{"title" : "LBM", "url" : "/lbm"},
-	{"title" : "Progress Report", "url" : "/progress-report"},
-	{"title" : "Report Cards", "url" : "report-cards"},
-	{"title" : "Attendance", "url" : "attendance"},
-	{"title" : "Activities", "url" : "activities"}
+	{"title" : "Dashboard", "url" : "student/dashboard"},
+	{"title" : "Calendar", "url" : "student/calendar"},
+	{"title" : "Library", "url" : "student/library"},
+	{"title" : "LMS", "url" : "student/lms"},
+	{"title" : "Timetable", "url" : "student/timetable"},
+	{"title" : "LBM", "url" : "student/lbm"},
+	{"title" : "Progress Report", "url" : "student/progress-report"},
+	{"title" : "Report Cards", "url" : "student/report-cards"},
+	{"title" : "Attendance", "url" : "student/attendance"},
+	{"title" : "Activities", "url" : "student/activities"}
 ]

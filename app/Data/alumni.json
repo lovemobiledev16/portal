@@ -1,9 +1,9 @@
 [
-	{"title" : "Dashboard", "url" : "/dashboard"},
-	{"title" : "Address", "url" : "/address"},
-	{"title" : "Education", "url" : "/education"},
-	{"title" : "Work", "url" : "/work"},
-	{"title" : "Giving History", "url" : "/giving-history"},
-	{"title" : "Other Info", "url" : "/other-info"},
-	{"title" : "Communicate", "url" : "/communicate"}
+	{"title" : "Dashboard", "url" : "alumni/dashboard"},
+	{"title" : "Address", "url" : "alumni/address"},
+	{"title" : "Education", "url" : "alumni/education"},
+	{"title" : "Work", "url" : "alumni/work"},
+	{"title" : "Giving History", "url" : "alumni/giving-history"},
+	{"title" : "Other Info", "url" : "alumni/other-info"},
+	{"title" : "Communicate", "url" : "alumni/communicate"}
 ]

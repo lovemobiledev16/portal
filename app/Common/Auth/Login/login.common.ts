@@ -9,7 +9,7 @@ export class LoginComponent {
   constructor(private router:Router) {}
   login() {
     console.log("Login");
-    this.router.navigate(['admin/dashboard']);
+    this.router.navigate(['admin']);
     return false;
   }
 }

@@ -1,32 +1,27 @@
-<div class="navbar-collapse collapse" id="navbar-second-toggle" [ngClass]="{collapse: bShowMenu}">
-    <ul class="nav navbar-nav navbar-nav-material">
-        <li class="{{(subMenu.title=='Dashboard') ? 'active' : ''}}" dropdown (onToggle)="toggled($event)" *ngFor="let subMenu of subMenus">
-            <a href="/login" id="simple-dropdown" *ngIf="subMenu.data" dropdownToggle>
-                {{subMenu.title}} <span *ngIf="subMenu.data" class="caret"></span>
-            </a>
-            <a href="/login" id="simple-dropdown" *ngIf="!subMenu.data">
-                {{subMenu.title}} <span *ngIf="subMenu.data" class="caret"></span>
-            </a>
-            <ul class="dropdown-menu" dropdownMenu aria-labelledby="simple-dropdown" *ngIf="subMenu.data">
-                <li *ngFor="let item of subMenu.data"><a href="/login"><i class="{{item.icon}}"></i> {{item.title}}</a>
-                </li>
-            </ul>
-        </li>
-    </ul>
-    <!--<ul class="nav navbar-nav navbar-nav-material">
-		<li class="active"><a href="../dashboard/index.html">Dashboard</a></li>
-		<li><a href="../calendar/index.html">Calendar</a></li>
-		<li><a href="../library/index.html">Library</a></li>
-		<li><a href="../lms/index.html">LMS</a></li>
-		<li><a href="../timetable/index.html">Timetable</a></li>
-		<li><a href="../lbm/index.html">LBM</a></li>
-		<li><a href="../progress-report/index.html">Progress Report</a></li>
-		<li><a href="../report-cards/index.html">Report Cards</a></li>
-		<li><a href="../attendance/index.html">Attendance</a></li>
-		<li><a href="../activities/index.html">Activities</a></li>
-	</ul>-->
-	<ul class="nav navbar-nav navbar-nav-material navbar-right">
-		<li><a href="#"><i class="icon-cloud2"></i></a></li>
-		<li><a href="#"><i class="icon-cog3"></i></a></li>
-	</ul>
+
+<div class="navbar navbar-inverse navbar-transparent" id="navbar-second">
+   <ul class="nav navbar-nav no-border visible-xs-block">
+      <li (click)="onShowMenu()"><a class="text-center collapsed" ><i class="icon-menu7"></i></a>
+      </li>
+   </ul>
+   <div class="navbar-collapse collapse" id="navbar-second-toggle" [ngClass]="{collapse: bShowMenu}">
+      <ul class="nav navbar-nav navbar-nav-material">
+         <li class="{{(subMenu.title=='Dashboard') ? 'active' : ''}}" dropdown (onToggle)="toggled($event)" *ngFor="let subMenu of subMenus">
+         <a href="{{subMenu.url}}" id="simple-dropdown" *ngIf="subMenu.data" dropdownToggle>
+         {{subMenu.title}} <span *ngIf="subMenu.data" class="caret"></span>
+         </a>
+         <a href="{{subMenu.url}}" id="simple-dropdown" *ngIf="!subMenu.data">
+         {{subMenu.title}} <span *ngIf="subMenu.data" class="caret"></span>
+         </a>
+         <ul class="dropdown-menu" dropdownMenu aria-labelledby="simple-dropdown" *ngIf="subMenu.data">
+            <li *ngFor="let item of subMenu.data"><a href="{{item.url}}" ><i class="{{item.icon}}"></i> {{item.title}}</a>
+            </li>
+         </ul>
+         </li>
+      </ul>
+      <ul class="nav navbar-nav navbar-nav-material navbar-right">
+         <li><a href="#"><i class="icon-cloud2"></i></a></li>
+         <li><a href="#"><i class="icon-cog3"></i></a></li>
+      </ul>
+   </div>
 </div>

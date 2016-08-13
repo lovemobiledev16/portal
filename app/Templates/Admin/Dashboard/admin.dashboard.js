@@ -21,9 +21,10 @@ var AdminDashboard = (function () {
     };
     AdminDashboard = __decorate([
         core_1.Component({
-            selector: 'login',
+            selector: 'admindashboard',
             templateUrl: './app/Templates/Admin/Dashboard/admin.dashboard.html',
-            styleUrls: ['./app/Templates/Admin/Dashboard/admin.dashboard.css']
+            styleUrls: ['./app/Templates/Admin/Dashboard/admin.dashboard.css'],
+            directives: []
         }), 
         __metadata('design:paramtypes', [router_1.Router])
     ], AdminDashboard);

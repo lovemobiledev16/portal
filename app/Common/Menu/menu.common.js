@@ -35,7 +35,8 @@ var CommonMenu = (function () {
         this.sub = this.route.params.subscribe(function (params) {
             console.log(params);
             var id = params['part'];
-            _this.menuService.getMenu(id).then(function (res) {
+            id = 'admin';
+            _this.menuService.getMenu(_this.path).then(function (res) {
                 //console.log(JSON.stringify(res));
                 _this.subMenus = res;
                 console.log(_this.subMenus);
@@ -53,6 +54,10 @@ var CommonMenu = (function () {
     CommonMenu.prototype.onShowMenu = function () {
         this.bShowMenu = !this.bShowMenu;
     };
+    __decorate([
+        core_1.Input(), 
+        __metadata('design:type', String)
+    ], CommonMenu.prototype, "path", void 0);
     CommonMenu = __decorate([
         core_1.Component({
             selector: 'nav-menu',

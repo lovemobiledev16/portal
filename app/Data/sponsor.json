@@ -1,9 +1,9 @@
 [
-	{"title" : "Dashboard", "url" : "/dashboard"},
-	{"title" : "Accounts", "url" : "/accounts"},
-	{"title" : "Communicate", "url" : "/communicate"},
-	{"title" : "Library", "url" : "/library"},
-	{"title" : "Newsletter", "url" : "/newsletter"},
-	{"title" : "Sponsors", "url" : "/sponsors"},
-	{"title" : "Students", "url" : "/students"}
+	{"title" : "Dashboard", "url" : "sponsor/dashboard"},
+	{"title" : "Accounts", "url" : "sponsor/accounts"},
+	{"title" : "Communicate", "url" : "sponsor/communicate"},
+	{"title" : "Library", "url" : "sponsor/library"},
+	{"title" : "Newsletter", "url" : "sponsor/newsletter"},
+	{"title" : "Sponsors", "url" : "sponsor/sponsors"},
+	{"title" : "Students", "url" : "sponsor/students"}
 ]

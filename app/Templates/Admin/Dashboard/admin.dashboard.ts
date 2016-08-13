@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
-import { CommonMenu } from "app/Common/Menu/menu.common";
 @Component({
-  selector: 'login',
+  selector: 'admindashboard',
   templateUrl: './app/Templates/Admin/Dashboard/admin.dashboard.html',
-  styleUrls: ['./app/Templates/Admin/Dashboard/admin.dashboard.css']
+  styleUrls: ['./app/Templates/Admin/Dashboard/admin.dashboard.css'],
+  directives : [ ]
 })
 export class AdminDashboard {
   constructor(private router:Router) {}
